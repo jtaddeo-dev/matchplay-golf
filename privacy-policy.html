@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MatchPlay Privacy Policy</title>
+<style>
+  body { max-width: 760px; margin: 40px auto; padding: 0 20px; font: 16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; color: #1c1c1e; }
+  h1 { font-size: 28px; margin-bottom: 4px; }
+  h2 { font-size: 20px; margin-top: 32px; }
+  h3 { font-size: 16px; margin-top: 20px; }
+  table { border-collapse: collapse; width: 100%; margin: 12px 0; }
+  th, td { border: 1px solid #d1d1d6; padding: 8px 10px; text-align: left; font-size: 14px; }
+  th { background: #f2f2f7; }
+  code { background: #f2f2f7; padding: 1px 5px; border-radius: 4px; }
+  .meta { color: #6c6c70; font-size: 14px; }
+  a { color: #0a84ff; }
+</style>
+</head>
+<body>
+
+<h1>MatchPlay Privacy Policy</h1>
+<p class="meta"><strong>Effective date:</strong> July 22, 2026 &middot; <strong>App:</strong> MatchPlay (iOS) &middot; <strong>Developer:</strong> Justin Taddeo &middot; <strong>Contact:</strong> support.golfbet@gmail.com</p>
+
+<h2>1. Overview</h2>
+<p>MatchPlay is a golf betting-game scorekeeper for iOS. It requires you to create an account to use the app. This policy explains what data we collect, why, how it is stored, and your choices. <strong>MatchPlay contains no advertising and no third-party ad tracking.</strong></p>
+
+<h2>2. Data We Collect and Why</h2>
+<h3>a. Account Identity</h3>
+<p>When you sign in with Apple or Google we receive and store your email address, your display name, a unique account identifier, and which sign-in provider you used. <strong>Why:</strong> to create and maintain your account.</p>
+<h3>b. Profile Information</h3>
+<p>Information you add to your profile: a unique <strong>@username</strong> (for friend search), your <strong>handicap index</strong> (entered manually), a <strong>profile photo</strong> (uploaded from your library), and optionally your <strong>Venmo handle</strong> (used to pre-fill payment links). <strong>Why:</strong> to identify you to friends, pre-fill your scores, and let friends pay you.</p>
+<h3>c. Friends</h3>
+<p>Your friends list and the friend requests you send or receive (which carry your username, display name, handicap, photo, and Venmo handle to the recipient). <strong>Why:</strong> to power friend search, requests, and adding friends to a match.</p>
+<h3>d. Match History</h3>
+<p>The golf matches you create &mdash; course, date, game type, wager amounts, hole-by-hole scores, player names, and payout results &mdash; synced to your account. <strong>Why:</strong> so your history is available after reinstall or on a new device.</p>
+<h3>e. Push Notification Token</h3>
+<p>Your device's push (Firebase Cloud Messaging) token. <strong>Why:</strong> to deliver friend-request and match-invite notifications.</p>
+<h3>f. Scorecard Photos (Scanner &mdash; MatchPlay Pro)</h3>
+<p>If you use the optional scorecard scanner, the photo you take (or choose) of your paper scorecard is sent to our scanning service and to Google's Gemini API, which reads the handwritten scores and returns them as text. <strong>Why:</strong> to fill in your scores automatically instead of by hand. The photo is transmitted only to perform this read &mdash; <strong>our scanning service does not store your scorecard photo after processing it</strong>, and the photo is never added to your account or shared with other users. The scores it returns are shown to you for review before anything is saved. Camera access is used only when you take a scan; you can also pick an existing photo from your library.</p>
+
+<h2>3. How Data Is Stored</h2>
+<p>We use <strong>Firebase</strong> (Google LLC) as our data processor: Firebase Authentication (sign-in), Cloud Firestore (profile, friends, match history, push tokens), Firebase Storage (profile photos), and Firebase Cloud Messaging (notifications). A local copy of your matches, friends, and profile is also kept on your device for offline use. Firebase is governed by <a href="https://policies.google.com/privacy">Google's Privacy Policy</a>.</p>
+<p>The scorecard scanner sends the photo through our own service (a Cloudflare Worker) to the <strong>Google Gemini API</strong> for reading. Neither our service nor MatchPlay retains the photo after the scores are returned; Google's handling of API requests is governed by <a href="https://policies.google.com/privacy">Google's Privacy Policy</a>.</p>
+
+<h2>4. What We Do NOT Do</h2>
+<ul>
+  <li>We do not show ads, and we do not use any advertising identifier (IDFA) or third-party ad tracking.</li>
+  <li>We do not sell your personal data.</li>
+  <li>We do not use your match history, profile, or scorecard photos to target advertising.</li>
+  <li>We do not retain scorecard photos after reading them, and we never share them with other users.</li>
+  <li>We do not move money on your behalf. <strong>"Pay on Venmo"</strong> opens the Venmo app pre-filled with a recipient and amount; you confirm and send inside Venmo. We have no access to your Venmo account or funds. Venmo is a separate service governed by <a href="https://venmo.com/legal/us-privacy-policy/">Venmo's Privacy Policy</a>.</li>
+  <li>We do not use Apple Sign In or Google Sign In data for advertising tracking.</li>
+</ul>
+
+<h2>5. Location</h2>
+<p>MatchPlay can use your device location to find nearby golf courses when you set up a match. This happens <strong>on your device only</strong> to search Apple Maps &mdash; your location is never sent to our servers, stored, or used to track you. You can decline location access and search for courses by name instead.</p>
+
+<h2>6. Data Retention</h2>
+<p>Your account and associated data are kept for as long as your account exists. Deleting your account removes your data from Firebase Authentication, Firestore, and Storage within 30 days. Local data persists until you delete the app. Scorecard photos are not retained (see &sect;2f).</p>
+
+<h2>7. Deleting Your Account and Data</h2>
+<p>To delete your account and all associated cloud data, email <strong>support.golfbet@gmail.com</strong> with the subject "Account Deletion Request" from the email address on your account; we process deletions within 30 days. <em>(Once in-app deletion ships: Settings &rarr; Account &rarr; Delete Account.)</em></p>
+
+<h2>8. Children</h2>
+<p>MatchPlay is not directed to children under 13. If you believe a child under 13 created an account, contact us and we will delete it.</p>
+
+<h2>9. Your Rights</h2>
+<p>Depending on where you live, you may have rights to access, correct, or delete the personal data we hold. Contact us to exercise them.</p>
+
+<h2>10. Third Parties</h2>
+<table>
+  <tr><th>Service</th><th>Role</th><th>Policy</th></tr>
+  <tr><td>Firebase Authentication</td><td>Sign-in / account identity</td><td><a href="https://policies.google.com/privacy">Google</a></td></tr>
+  <tr><td>Cloud Firestore</td><td>Cloud data storage</td><td><a href="https://policies.google.com/privacy">Google</a></td></tr>
+  <tr><td>Firebase Storage</td><td>Profile photo storage</td><td><a href="https://policies.google.com/privacy">Google</a></td></tr>
+  <tr><td>Firebase Cloud Messaging</td><td>Push notifications</td><td><a href="https://policies.google.com/privacy">Google</a></td></tr>
+  <tr><td>Google Sign-In</td><td>Authentication provider</td><td><a href="https://policies.google.com/privacy">Google</a></td></tr>
+  <tr><td>Apple Sign In</td><td>Authentication provider</td><td><a href="https://www.apple.com/legal/privacy/">Apple</a></td></tr>
+  <tr><td>Google Gemini API</td><td>Reads scanned scorecard photos (scores only)</td><td><a href="https://policies.google.com/privacy">Google</a></td></tr>
+  <tr><td>Venmo</td><td>Third-party payment deep link only</td><td><a href="https://venmo.com/legal/us-privacy-policy/">Venmo</a></td></tr>
+</table>
+
+<h2>11. Changes to This Policy</h2>
+<p>We may update this policy as the app evolves and will post the updated version at the URL listed in App Store Connect.</p>
+
+<h2>12. Contact</h2>
+<p><strong>Email:</strong> support.golfbet@gmail.com<br><strong>Developer:</strong> Justin Taddeo</p>
+
+</body>
+</html>
